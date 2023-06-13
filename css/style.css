@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+.container{
+    background-color: white;
+    line-height: 18px;
+}
+
+.main-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+main{
+    background-color: white;
+    margin-top: 50px;
+}
+
+.button{ 
+    margin-top: 15px;
+    border-radius: 10%;
+    padding: 5px;   
+}
+
+.task{
+    background-color: #47ADF1;;
+    color: white;
+    margin-left: 15px;
+    border: none;
+}
+
+.section{
+    background-color:white;
+    color:gray ;
+    border: 2px solid gray;
+    margin-left: 5px;
+}
+
+hr{
+    
+}
