@@ -69,14 +69,15 @@ hr{
 
 .flag{
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
     text-align: center;
     color: darkgreen;
     border: 2px solid green;
     border-radius: 20px;
     margin-right:10px;
+    font-size: x-small;
 }
 
 .label{
@@ -100,14 +101,15 @@ hr{
 
 .cross{
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
     text-align: center;
     color: red;
     border: 2px solid red;
     border-radius: 75%;
     margin-right: 10px;
+    font-size: x-small;
 }
 
 .recruiting{
