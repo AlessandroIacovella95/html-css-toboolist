@@ -1,7 +1,8 @@
 
 body{
+    box-sizing: border-box;
     margin: 0;
-    background-color: #F6F8F9;
+    background-color: lightgray;
 }
 
 .container{
@@ -22,9 +23,10 @@ body{
 
 main{
     background-color:white;
-    min-height: 600px;
+    min-height: 610px;
     width: 1000px;
     margin: auto;
+    border-radius: 10px;
 }
 
 .button{ 
@@ -65,16 +67,26 @@ hr{
 }
 
 .flag{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
     color: darkgreen;
     border: 2px solid green;
-    border-radius: 75%;
-    font-weight: bold;
+    border-radius: 20px;
+    margin-right:10px;
 }
 
 .label{
-    padding: 8px;
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
     margin-left: 10px;
-    border-radius: 80%;
+    border-radius: 10px;
+    padding: 2px;
 }
 
 .editorial{
@@ -86,10 +98,15 @@ hr{
 }
 
 .cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
     color: red;
     border: 2px solid red;
     border-radius: 75%;
-    font-weight: bold;
+    margin-right: 10px;
 }
 
 .recruiting{
