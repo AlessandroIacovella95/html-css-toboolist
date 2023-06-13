@@ -9,6 +9,7 @@ body{
     background-color: white;
     line-height: 18px;
     margin-bottom: 25px;
+    min-width: 1000px;
 }
 
 .main-title{
